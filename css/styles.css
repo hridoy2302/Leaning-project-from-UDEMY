@@ -1,0 +1,224 @@
+#title{
+    background-color: aquamarine;
+}
+
+body{
+    font-family: 'DynaPuff', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* Section 2 */
+h3{
+    font-family: cursive;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+i{
+    font-size: 3rem;
+    padding: 9%;
+    color: red;
+}
+i:hover{
+    color: rebeccapurple;
+}
+
+p{
+    color: #8f8f8f;
+    flex-direction: r;
+}
+
+
+
+
+
+
+.headingtext{
+    font-family: 'DynaPuff', cursive;
+font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 150px;
+    margin-bottom: 20px;
+    
+    
+  
+  
+  -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(20deg);
+}
+
+#features{
+    position: relative;
+    text-align: center;
+    display: flex;
+   
+    
+    justify-items: center;
+    margin: 10%;
+    padding: 5% 15%;
+    background-color: #fff;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+/* Testimonial */
+
+#testimonials{
+    
+    text-align: center;
+    font-family: "Montserrat";
+    background-color: aquamarine;
+    color: black;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 20%;
+    border-radius: 50%;
+    font-size: 60px;
+    margin: 25px;
+}
+
+/* Press */
+
+#press{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 5%;
+}
+
+
+.press-logo{
+    width: 25%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+.pricing-text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.des{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.price{
+    display: flex;
+    
+    text-align: center;
+    justify-content: center;
+}
+
+/* Pricing Table */
+
+.card-deck{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: 5% 10% ;
+    padding: 5%;
+}
+
+.text-price{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+    width: auto;
+    text-align: center;
+    margin: 5%;
+}
+
+.button{
+    text-align: center;
+    padding: 3%;
+    word-spacing: 55px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+#footer{
+    background-color: blueviolet;
+    color: black;
+    margin: 30px 20px;
+    padding: 40px 30px;
+    text-align: center;
+}
+.pf{
+    color: white;
+    position: relative;
+    bottom: 20px;
+}
+.co{
+    color: red;
+    font-size: 65px;
+    width: 4%;
+    justify-content: center;
+    justify-items: center;
+    font-weight: bolder;
+}
+
+@media (max-width: 930px){
+    .title-image{
+        transform: rotate(0);
+        text-align: center;
+    }
+}
